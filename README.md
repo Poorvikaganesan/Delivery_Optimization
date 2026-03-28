@@ -75,7 +75,17 @@ The main idea of the algorithm is:
 
 This method helps distribute deliveries in a balanced way while still giving priority to more urgent deliveries.
 
+## Why Greedy Algorithm Was Chosen
 
+The Greedy Algorithm was selected for this project because it provides a simple and efficient way to handle delivery assignment problems.
+
+In this scenario, deliveries must be distributed among three agents while keeping the total travel distance balanced. A greedy strategy works well because it makes the best possible decision at each step. Whenever a delivery needs to be assigned, the algorithm chooses the agent who currently has the lowest total distance.
+
+This approach gradually balances the workload across all agents.
+
+Another reason for choosing this algorithm is its simplicity and speed. More complex optimization techniques such as dynamic programming or advanced routing algorithms could also be applied, but they would introduce unnecessary complexity for a problem of this size.
+
+The greedy method is easy to implement, easy to understand, and performs well for this type of scheduling and load‑balancing problem. Because of these reasons, it was considered an appropriate choice for this delivery optimization task.
 
 ## Dashboard
 
