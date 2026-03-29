@@ -100,6 +100,7 @@ The dashboard allows users to view:
 - Average delivery distance per agent
 
 This makes it easier to understand how the deliveries are distributed.
+You can view the streamlit dashboard through the link : http://localhost:8501/
 
 ![alt text](image.png)
 ![alt text](image-1.png)
